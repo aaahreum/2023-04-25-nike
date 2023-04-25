@@ -32,3 +32,198 @@
 .extra a:last-child img {
   width: 24px;
 }
+
+/* main */
+
+.main {
+}
+.main .item {
+  height: 698px;
+  background-image: url(../images/shoes.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main .item .text_box {
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  width: 379px;
+  height: 236px;
+}
+
+.main .item .text_box h2 {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: left;
+  line-height: 1.2;
+  height: 144px;
+  width: 300px;
+}
+.main .item .text_box p {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.btns {
+  position: absolute;
+  padding: 40px 0 0 0;
+}
+.main_btn {
+  width: 256px;
+  height: 64px;
+  background-color: #111111;
+  color: #fff;
+  line-height: 64px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* container_1 */
+
+.container_1 {
+  margin: 0 auto;
+}
+.container_1 .content {
+  color: #fff;
+  display: flex;
+  gap: 40px;
+}
+
+.content ul {
+  display: flex;
+  gap: 16px;
+}
+
+.content ul li {
+  background-color: #111111;
+  width: 632px;
+  height: 642px;
+  position: relative;
+}
+
+.content ul li h3 {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 50px;
+  padding-left: 48px;
+}
+
+.content ul li p {
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 48px;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* container_2 */
+
+.container_2 {
+  margin: 131px auto;
+}
+
+.container_2 .title_box {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.container_2 .list {
+  display: flex;
+  gap: 16px;
+}
+
+.list_01 .photo,
+.list_02 .photo,
+.list_03 .photo,
+.list_04 .photo {
+  background-color: #c4c4c4;
+  width: 308px;
+  height: 308px;
+}
+.container_2 .list .text_box .p1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.container_2 .list .text_box .p2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* container_3 */
+
+.container_3 {
+  margin: 0 auto;
+}
+
+.container_3 .title_box {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.container_3 .list {
+  display: flex;
+  gap: 16px;
+}
+.container_3 .list .text_box .p1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.container_3 .list .text_box .p2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.list_01 .photo,
+.list_02 .photo,
+.list_03 .photo,
+.list_04 .photo {
+  background-color: #c4c4c4;
+  width: 308px;
+  height: 308px;
+}
+
+/* container_4 */
+
+.container_4 .text_box {
+  width: 715px;
+  height: 297px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.container_4 .text_box h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.container_4 .text_box p {
+  padding-top: 24px;
+  padding-bottom: 61px;
+}
+
+.btn_1 {
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 92px;
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/* footer */
+
+.footer {
+  background-color: #111111;
+  height: 411px;
+}
